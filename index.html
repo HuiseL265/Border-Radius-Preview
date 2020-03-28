@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border-Radius-Preview</title>
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Da+2:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <header><h1 id="title">Border Radius Preview</h1></header>
+        
+        <div id="content-border">
+            <div id="arrows-left">
+                <div class="box-arrows">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg" 
+                        alt="arrowUp-LeftUp" class="Cima" onmousedown="aulu()" onmouseup="parar()">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg"
+                        alt="arrowDown-LeftUp" class="Baixo" onmousedown="adlu()" onmouseup="parar()">
+                </div>
+                <div class="box-arrows">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg" 
+                        alt="arrowUp-LeftDown" class="Cima" onmousedown="auld()" onmouseup="parar()">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg"
+                        alt="arrowDown-LeftDown" class="Baixo" onmousedown="adld()" onmouseup="parar()">
+                </div>
+            </div>
+            
+            <div id="border" style="border-radius:0% 0% 0% 0%;"></div>
+
+            <div id="arrows-right">
+                <div class="box-arrows">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg" 
+                        alt="arrowUp-RightUp" class="Cima" onmousedown="auru()" onmouseup="parar()">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg"
+                        alt="arrowDown-RightUp" class="Baixo" onmousedown="adru()" onmouseup="parar()">
+                </div>
+                <div class="box-arrows">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg" 
+                        alt="arrowUp-RightDown" class="Cima" onmousedown="aurd()" onmouseup="parar()">
+                    <img src="https://image.flaticon.com/icons/svg/254/254434.svg"
+                        alt="arrowDown-RightDown" class="Baixo" onmousedown="adrd()" onmouseup="parar()">
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="information">
+            <p>Values</p>
+            <form action="">
+                <input type="text" placeholder="00 00 00 00" id="valorCss">
+            </form>
+        </div>
+
+        <footer style="opacity: 0.6;">Made by Vitor P ;)</footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
