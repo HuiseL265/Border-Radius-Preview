@@ -111,6 +111,16 @@ footer{
     text-align:center;
 }
 
+    footer a{
+        text-decoration: none;
+        color:black;
+    }
+
+    footer a:hover{
+        color:red;
+        text-decoration: underline;
+    }
+
 .Cima{
     transform: rotate(270deg);
 }
