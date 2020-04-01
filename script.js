@@ -311,3 +311,13 @@ function arrowDownRightDown() {
     }
 };
     
+document.getElementById("valorCss").addEventListener("keypress", pressEnter);
+
+function pressEnter(e){
+    if(e.keycode == 13){
+        e.preventDefault();
+        let valorCss = document.getElementById("valorCss").value
+        console.log(valorCss)
+    //document.getElementById("valorCss")
+    }
+}

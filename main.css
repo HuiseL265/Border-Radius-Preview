@@ -24,17 +24,20 @@ header{
 header h1{
     text-align:center;
     text-shadow: 1px 1px 4px #b8a8e4;
-    font-size:40px;
+    font-size:30px;
     color:#7148e0;
 }
 
 #content-border{
-    width:90%;
+    width:30%;
     max-width:auto;
     height:250px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 20px;
+    justify-content: center;
+
+    align-self: center;
 }
 
 #content-border #border{
@@ -47,7 +50,7 @@ header h1{
 }
 
 #content-border .box-arrows{
-    width:150px;
+    width:100%;
     height:125px;
     display:flex;
     flex-direction: column;
@@ -75,21 +78,21 @@ header h1{
         align-items: flex-start;
     }
 
-#information{
+#information form{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-#information p{
+#information label{
     font-size:18px;
     font-weight: lighter;
     margin: 0;
     text-transform: uppercase;
 }
 
-form input{
+#valorCss{
     width:140px;
     height:25px;
 
@@ -107,7 +110,6 @@ form input{
 }
 
 footer{
-    margin-top:40px;
     text-align:center;
 }
 
